@@ -5,10 +5,9 @@ int main()
     int n = 113;
     int cnt = 0;
 
-    scanf("%d", &n);
     if (n <= 1)
     {
-        printf("The number %d is NOT prime", n);
+        printf("%d is NOT prime", n);
         return 0;
     }
 
